@@ -24,6 +24,10 @@ switch ($page) {
         include "view/domaines.php";
         break;
 
+    case "prof_dashboard.php":
+         include "view/prof_dashboard.php";
+         break;
+
     default:
         include "view/accueil.php"; 
         break;

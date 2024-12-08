@@ -13,7 +13,7 @@
                 </p>
                 <p class="fw-light fst-italic">"Un site dédié à vous guider vers les meilleures opportunités pour votre futur."</p>
             </div>
-            <!-- Image centrale -->
+            
             <div class="col-md-6 text-center">
                 <img src="https://i.pinimg.com/originals/d0/c6/04/d0c60459431b6ffaecf92fc902ca996d.gif" alt="Étudiants heureux" class="hero-image img-fluid rounded shadow-lg">
             </div>
@@ -21,7 +21,7 @@
     </div>
 </section>
 
-<!-- Section Domaines et Interviews -->
+
 <section class="container my-5">
     <div class="row">
         <!-- Domaines -->
@@ -40,7 +40,7 @@
                 <div class="card-body text-center">
                     <h3 class="text-info fw-bold">Interviews Inspirantes</h3>
                     <p class="text-secondary">Écoutez les témoignages et conseils des professionnels pour mieux comprendre les métiers.</p>
-                    <a href="index.php?page=interview" class="btn btn-info">Voir les Interviews</a>
+                    <a href="index.php?page=interview" class="btn btn-info">Voir les Métiers</a>
                 </div>
             </div>
         </div>

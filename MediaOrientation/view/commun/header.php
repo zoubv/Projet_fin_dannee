@@ -25,7 +25,14 @@
                     <li class="nav-item"><a class="nav-link text-dark" href="index.php?page=accueil">Accueil</a></li>
                     <li class="nav-item"><a class="nav-link text-dark" href="index.php?page=domaines">Domaines</a></li>
                     <li class="nav-item"><a class="nav-link text-dark" href="index.php?page=interview">Interviews</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="index.php?page=prof_dashboard.php" title="Connexion">
+                            <i class="fas fa-user-circle"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
+</body>
+</html>
