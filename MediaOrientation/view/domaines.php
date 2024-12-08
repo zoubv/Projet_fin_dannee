@@ -1,3 +1,10 @@
+<?php
+session_start(); // Démarre la session
+if (!isset($_SESSION['users'])) { // Vérifie si l'utilisateur est connecté
+    header('Location: login.php'); // Si non connecté, redirige vers la page de connexion
+    exit();
+}
+?>
 <section class="container my-5">
     <h2 class="text-center text-primary fw-bold mb-4">Domaines</h2>
     <div class="row">

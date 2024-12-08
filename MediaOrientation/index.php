@@ -1,7 +1,5 @@
 <?php
 
-
-
 include "view/commun/header.php";
 
 // Système de routage
@@ -31,8 +29,10 @@ switch ($page) {
     default:
         include "view/accueil.php"; 
         break;
+
 }
 
 // Inclusion du footer
 include "view/commun/footer.php";
 ?>
+

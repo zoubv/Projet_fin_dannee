@@ -1,5 +1,3 @@
-<?php include "header.php"; ?>
-
 <section class="hero-section py-5">
     <div class="container">
         <div class="row align-items-center">
@@ -21,7 +19,16 @@
     </div>
 </section>
 
+<<<<<<< Updated upstream
 
+=======
+<?php
+// Vérifie si l'utilisateur est connecté (si la session contient 'user')
+if (isset($_SESSION['user'])):
+?>
+
+<!-- Section Domaines et Interviews (visible uniquement si l'utilisateur est connecté) -->
+>>>>>>> Stashed changes
 <section class="container my-5">
     <div class="row">
         <!-- Domaines -->
@@ -46,5 +53,12 @@
         </div>
     </div>
 </section>
+
+<?php
+else:
+    // Si l'utilisateur n'est pas connecté, affiche un message
+    echo '<p class="text-center text-secondary">Veuillez vous connecter pour explorer les domaines et les interviews.</p>';
+endif;
+?>
 
 <?php include "footer.php"; ?>

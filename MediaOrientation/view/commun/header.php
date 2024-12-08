@@ -24,13 +24,23 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link text-dark" href="index.php?page=accueil">Accueil</a></li>
                     <li class="nav-item"><a class="nav-link text-dark" href="index.php?page=domaines">Domaines</a></li>
+<<<<<<< Updated upstream
                     <li class="nav-item"><a class="nav-link text-dark" href="index.php?page=interview">Interviews</a></li>
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="index.php?page=prof_dashboard.php" title="Connexion">
                             <i class="fas fa-user-circle"></i>
                         </a>
                     </li>
+=======
+                    <li class="nav-item"><a class="nav-link text-dark" href="index.php?page=interview">Métiers</a></li>
+>>>>>>> Stashed changes
                 </ul>
+
+
+                <!-- Icône pour la connexion -->
+                <a href="index.php?page=login" class="ms-3 text-dark">
+                    <i class="fas fa-user fa-lg"></i>
+                </a>
             </div>
         </div>
     </nav>
